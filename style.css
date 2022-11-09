@@ -137,8 +137,9 @@ margin-left: 12px;
 
     #profileImg{
         position: relative;
-        width: 100%;
+        width: 88%;
         height: 50%;
-        top: 73px;
+        top: 84px;
+
     }
 }
