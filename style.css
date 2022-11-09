@@ -24,6 +24,7 @@ body{
 .artcle{
     position: relative;
     top: 50px !important;
+    margin: 0px -22px !important;
     
 }
 .hiAll{
@@ -43,13 +44,13 @@ body{
     top: 25px;
     width: 578px;
     font-family: Red Hat Display !important;
-    height: 269px;
     font-weight: 800;
     font-size: 70px;
     line-height: 88px;
     letter-spacing: -0.01em;
     color: #2E2E2E;
 }
+
 
 .rank{
     color: 
@@ -89,7 +90,9 @@ body{
     border-radius: 48px;
 margin-left: 12px;
 }
-
+.aricalSecton{
+    display: flex;
+}
 .aricalFirst{
     position: relative;
     top: 50px;
@@ -99,4 +102,43 @@ margin-left: 12px;
     width: 550px;
     height: 560px;
 
+}
+
+/* mobile view  */
+
+@media (max-width: 500px){
+    .myPosi{
+        font-weight: 800;
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .hiAll{
+        width: 176px;
+    }
+    .aricalFirst{
+        top: 0;
+        display: block;
+    }
+    .pharaForMe{
+        width: 100%;
+    }
+    .aricalSecton{
+        display: block;
+    }
+    .commonBtn{
+        width: 62%;
+        display: block;
+        top: 80px;
+    }
+    #contactBtn{
+        margin: 15px 0px;
+       
+    }
+
+    #profileImg{
+        position: relative;
+        width: 373px;
+        height: 373px;
+        top: 73px;
+    }
 }
