@@ -1,5 +1,5 @@
 body{
-    margin: 20px !important;
+    margin: 0;
     padding: 0;
     font-family: poppins !important;
     background-color: white;
@@ -103,6 +103,30 @@ margin-left: 12px;
 
 }
 
+/* main section  */
+
+.mainSection{
+    background: #FEF5F5;
+    position: relative;
+    top: 110px;
+    padding-top: 38px;
+}
+
+.mainSection h3{
+    font-family: Red Hat Display;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #2E2E2E;
+    padding-bottom: 22px;
+}
+
+.allMainPic{
+    margin: 15px 0px;
+    text-align: center;
+}
+
 /* mobile view  */
 
 @media (max-width: 500px){
@@ -111,6 +135,9 @@ margin-left: 12px;
         font-weight: 800;
         font-size: 29px;
         line-height: 40px;
+    }
+    .mainSection{
+        text-align: center;
     }
     .hiAll{
         width: 176px;
